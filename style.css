@@ -1,0 +1,29 @@
+h1{
+color: rgb(130, 52, 193);   
+}
+
+p{
+color: firebrick;
+}
+
+.f1{
+color: indigo;
+}
+
+img{
+width: 400px;
+border-radius: 50%;
+}
+
+h2{
+color: darkcyan;
+}
+
+.f2{
+color: blue;
+}
+
+.container{
+max-width: 1000px;
+margin: 0 auto;
+}
