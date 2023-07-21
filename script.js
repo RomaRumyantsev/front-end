@@ -24,4 +24,3 @@ test.addEventListener('click', function(){
 })
 
 console.log('Работа скрипта завершена')
-
