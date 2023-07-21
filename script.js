@@ -1,5 +1,6 @@
 
 console.log('Hello Roma')
+
 // ловить событие
 const getButton = document.querySelector('button')
 
@@ -13,4 +14,14 @@ getButton.addEventListener('click', () => {
 	console.log('На меня нажали')
 	showElement.innerHTML += ` На меня нажали столько <b>${countClick} раз</b>!`
 })
+
+// клик по секции test
+
+const test = document.querySelector('.test')
+
+test.addEventListener('click', function(){
+	test.classList.add('about')
+})
+
+console.log('Работа скрипта завершена')
 

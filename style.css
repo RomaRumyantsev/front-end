@@ -1,14 +1,18 @@
+
+*{
+margin: 0;    
+}
 h1{
-color: rgb(130, 52, 193);  
-font-size: 15px; 
+color: rgb(255, 255, 255);  
+font-size: 35px; 
 }
 
 p{
-color: firebrick;
+color: rgb(255, 255, 255);
 }
 
-.f1{
-color: indigo;
+.first-screen__text{
+color: rgb(255, 255, 255);
 }
 
 img{
@@ -17,14 +21,34 @@ border-radius: 50%;
 }
 
 h2{
-color: darkcyan;
+color: rgb(255, 255, 255);
 }
 
 .f2{
-color: blue;
+color: rgb(255, 255, 255);
 }
 
 .container{
 max-width: 1000px;
 margin: 0 auto;
+}
+
+/* --- first-screen --- */
+
+.first-screen{
+    background-color: #116466
+}
+	
+.resume{
+    background-color: #116466
+}
+
+.skills{
+    background-color: #116466   
+}
+
+/* --- about --- */
+
+.about{
+    background-color: #113266   
 }
