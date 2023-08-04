@@ -1,54 +1,105 @@
-
-*{
-margin: 0;    
-}
-h1{
-color: rgb(255, 255, 255);  
-font-size: 35px; 
+* {
+    margin: 0;
 }
 
-p{
-color: rgb(255, 255, 255);
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
 }
 
-.first-screen__text{
-color: rgb(255, 255, 255);
+p {
+    color: rgb(255, 255, 255);
 }
 
-img{
-width: 400px;
-border-radius: 50%;
+.first-screen__text {
+    color: rgb(255, 255, 255);
 }
 
-h2{
-color: rgb(255, 255, 255);
+
+
+.img2 {
+    width: 400px;
+    border-radius: 50%;
 }
 
-.f2{
-color: rgb(255, 255, 255);
+h2 {
+    color: rgb(255, 255, 255);
 }
 
-.container{
-max-width: 1000px;
-margin: 0 auto;
+.f2 {
+    color: rgb(255, 255, 255);
 }
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* Header */
+/* --- header-menu --- */
+
+.header-menu {
+    list-style-type: none;
+    /* по горизонту */
+    display: flex;
+    /* расстояние */
+    gap: 20px;
+    padding: 40px 0px;
+}
+
+.header-menu__yellow{
+    color: green;
+    transition: 0.3s;
+}
+
+.header-menu__yellow:hover{
+    color: yellow;
+    transition: 0.3s;
+}
+
 
 /* --- first-screen --- */
 
-.first-screen{
-    background-color: #116466
+.first-screen {
+    background-color: #116466;
 }
-	
-.resume{
+
+.first-screen__wrap {
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.first-screen__image{
+    width: 400px;
+    height: 300px;
+    border: 5px solid red;
+}
+
+.first-screen__image img{ 
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.resume {
     background-color: #116466
 }
 
-.skills{
-    background-color: #116466   
+.skills {
+    background-color: #116466
 }
 
 /* --- about --- */
 
-.about{
-    background-color: #113266   
+.about {
+    background-color: #113266
 }
