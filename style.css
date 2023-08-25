@@ -117,17 +117,66 @@ h2 {
 }
 
 
+/* About */
 
-.resume {
-    background-color: #116466
+.about{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #1f1f20;
 }
 
+.title{
+text-align: center;
+font-size: 36px;
+font-weight: 600;
+margin-bottom: 30px;
+
+}
+
+.title__decor{
+background-color: #4f93e5;
+width: 100px;
+height: 1px;
+margin: 0 auto;
+margin-top: 10px;   
+}
+
+
+/* Skills */
 .skills {
-    background-color: #116466
+    background-color: #252527;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-/* --- about --- */
-
-.about {
-    background-color: #113266
+/* Resume */
+.resume {
+    background-color: #1f1f20;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
+/* Works */
+
+.works{
+    background-color: #252527;
+        padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact{
+    background-color: #1f1f20;
+        padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.footer{
+    background-color: #252527;
+    color: white;
+}
+
+
+
+
+

@@ -84,10 +84,10 @@ getButton.addEventListener('click', () => {
 })
 
 // клик по секции test
-let test = document.querySelector('.test')
+// let test = document.querySelector('.test')
 
-test.addEventListener('click', function () {
-	test.classList.add('about')
-})
+// test.addEventListener('click', function () {
+// 	test.classList.add('about')
+// })
 
-console.log('Работа скрипта завершена')  
+// console.log('Работа скрипта завершена')  
