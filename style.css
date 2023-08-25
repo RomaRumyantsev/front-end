@@ -157,20 +157,20 @@ margin-top: 10px;
 }
 
 /* Works */
-
 .works{
     background-color: #252527;
-        padding-top: 30px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
+/* Contact */
 .contact{
     background-color: #1f1f20;
-        padding-top: 30px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
-
+/* Footer */
 .footer{
     background-color: #252527;
     color: white;
