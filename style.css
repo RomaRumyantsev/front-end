@@ -163,6 +163,14 @@ margin-top: 10px;
     padding-bottom: 30px;
 }
 
+.works-items__image{
+    width: 400px;
+}
+
+.works-items__image img{
+    width: 100%;
+}
+
 /* Contact */
 .contact{
     background-color: #1f1f20;
