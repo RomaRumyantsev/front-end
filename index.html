@@ -19,18 +19,30 @@
         <header class="header">
             <div class="container">
                 <ol class="header-menu">
-                    <li class="header-menu__link">Главная</li>
-                    <li class="header-menu__link">О себе</li>
-                    <li class="header-menu__link">Навыки</li>
-                    <li class="header-menu__link">Резюме</li>
-                    <li class="header-menu__link">Работы</li>
-                    <li class="header-menu__link">Контакты</li>
+                    <li class="header-menu__link">
+                        <a href="#home">Главная</a>
+                    </li>
+                    <li class="header-menu__link">
+                        <a href="#about">О себе</a>
+                    </li>
+                    <li class="header-menu__link">
+                        <a href="#skills">Навыки</a>
+                    </li>
+                    <li class="header-menu__link">
+                        <a href="#resume">Резюме</a> 
+                    </li>
+                    <li class="header-menu__link">
+                        <a href="#works">Работы</a> 
+                    </li>
+                    <li class="header-menu__link">
+                        <a href="#contacts">Контакты</a>
+                    </li>
                 </ol>
             </div>
         </header>
 
         <main class="main">
-            <section class="first-screen">
+            <section id="home" class="first-screen">
                 <div class="container">
                     <div class="first-screen__wrap">
 
@@ -49,7 +61,7 @@
                 </div>
             </section>
 
-            <section class="about">
+            <section id="about" class="about">
                 <div class="container">
 
 
@@ -73,17 +85,49 @@
                 </div>
             </section>
 
-            <section class="skills">
+            <section id="skills" class="skills">
                 <div class="container">
                     <h2 class="skills__title title">
                         Навыки
                     <div class="title__decor"></div>
                     </h2>
-                    <p class="skills__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, id.</p>
+
+                    <div class="skills__items">
+                        <div class="skills__item">
+                            <div class="skills__romb">
+                            <div class="skills__image">
+                                    <img src="images/icons/js_icon2.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="skills__info">
+                                <div>
+                                    JavaScript
+                                </div>
+                                <div>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, suscipit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__romb">
+                                <div class="skills__image">
+                                    <img src="images/icons/ts_icon.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="skills__info">
+                                <div>
+                                    TypeScript
+                                </div>
+                                <div>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, suscipit.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
-            <section class="resume">
+            <section id="resume" class="resume">
                 <div class="container">
                     <h2 class="resume__title title">
                         Резюме
@@ -91,7 +135,7 @@
                     </h2>
                 </div>
             </section>
-            <section class="works">
+            <section id="works" class="works">
                 <div class="container">
                     <h2 class="works__title title" >
                         Работы
@@ -167,7 +211,7 @@
                     </div>
                 </div>
             </section>
-            <section class="contact">
+            <section id="contacts" class="contact">
                 <div class="container">
                 <h2 class="contact__title title">
                     Контакты
